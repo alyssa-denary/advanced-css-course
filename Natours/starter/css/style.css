@@ -111,6 +111,26 @@ body {
   }
 }
 
+@keyframes moveInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  /* 80% {
+    transform: translateX(-10px);
+  } */
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+.btn-animated {
+  animation: 1s ease-out 0.5s backwards moveInUp;
+}
+
 .btn:link,
 .btn:visited {
   text-transform: uppercase;
