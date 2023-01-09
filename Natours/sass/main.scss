@@ -1,4 +1,5 @@
-@import "base/base";
+@import "base/base";  // SCSS specific: don't need _ or .scss because Sass can understand this shorthand
+@import "base/_typography.scss";
 
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
