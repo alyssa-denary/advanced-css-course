@@ -1,0 +1,23 @@
+.search {
+  background-color: var(--grey-light-3);
+  padding: 0.5rem 1.5rem;
+  flex: 0 1 30%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2rem;
+
+  &_input {
+    border: none;
+    background-color: var(--clear);
+  }
+
+  &_button {
+    background-color: var(--clear);
+    border: none;
+  }
+
+  &_icon {
+    height: 2rem;
+    width: 2rem;
+  }
+}
