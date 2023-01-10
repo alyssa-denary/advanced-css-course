@@ -46,3 +46,22 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   line-height: 1.6; }
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--grey-light-2);
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  min-height: 50rem; }
+
+.content {
+  padding: 1rem; }
+
+.header {
+  padding: 1rem; }
+
+.hotel-view {
+  padding: 1rem; }
+
+.sidebar {
+  padding: 1rem; }
