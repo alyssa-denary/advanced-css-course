@@ -1,0 +1,30 @@
+.user-nav {
+  &_icon-box {
+    padding: 1rem;
+  }
+
+  &_icon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+
+  &_notification {
+    padding: 0.5rem;
+    color: var(--grey-light-1);
+    background-color: var(--color-primary);
+    border-radius: 50%;
+  }
+
+  &_user {
+    padding: 1rem;
+  }
+
+  &_user-photo {
+    height: 3.75rem;
+    border-radius: 50%;
+  }
+
+  &_user-name {
+    padding: 1rem;
+  }
+}
