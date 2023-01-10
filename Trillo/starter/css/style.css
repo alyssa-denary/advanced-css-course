@@ -62,7 +62,8 @@ body {
   padding: 1rem; }
 
 .hotel-view {
-  padding: 1rem; }
+  flex: 1 1 82%;
+  background-color: orangered; }
 
 .sidebar {
   flex: 0 0 18%;
